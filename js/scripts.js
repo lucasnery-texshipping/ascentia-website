@@ -51,10 +51,9 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
-    });
+    // SimpleLightbox initialization removed to prevent click opening the lightbox/carousel.
+    // If you want to enable it only for specific items, replace with:
+    // new SimpleLightbox({ elements: '#portfolio a.portfolio-box.lightbox' });
 
     // Initialize AOS (Animate On Scroll)
     AOS.init({
