@@ -11183,7 +11183,64 @@ h1:hover, h2:hover {
     
     .btn-primary:hover, .btn-light:hover {
         transform: translateY(-2px);
-  }
+    }
+}
 
+/* Floating WhatsApp button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  z-index: 9999;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border-radius: 50%;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.whatsapp-float img {
+  width: 48px;
+  height: 48px;
+  display: block;
+  /* sombra atrás do PNG */
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.35));
+  transition: transform 0.18s ease, filter 0.18s ease;
+}
+
+/* hover/focus: cresce levemente */
+.whatsapp-float:hover,
+.whatsapp-float:focus {
+  transform: translateY(-4px) scale(1.06);
+  outline: none;
+}
+.whatsapp-float:focus img {
+  filter: drop-shadow(0 8px 14px rgba(0,0,0,0.45));
+}
+
+/* accessible focus ring */
+.whatsapp-float:focus-visible {
+  box-shadow: 0 0 0 4px rgba(52,142,247,0.12);
+  border-radius: 50%;
+}
+
+/* smaller on mobile */
+@media (max-width: 480px) {
+  .whatsapp-float {
+    width: 54px;
+    height: 54px;
+    bottom: 16px;
+    right: 16px;
+  }
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
