@@ -11244,3 +11244,32 @@ h1:hover, h2:hover {
   }
 }
 
+/* Footer social icons (simples, sem hover nem sombra) */
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 8px;
+}
+.footer-logo {
+  width: 56px;
+  height: auto;
+  display: block;
+}
+.footer-social-link {
+  display: inline-block;
+  line-height: 0;
+}
+.footer-social-icon {
+  width: 56px;
+  height: 56px;
+  display: block;
+  object-fit: contain;
+}
+/* Mantém acessibilidade (foco), sem efeitos visuais ao passar o mouse */
+.footer-social-link:focus-visible {
+  outline: 2px solid rgba(52,142,247,0.12);
+  outline-offset: 3px;
+  border-radius: 4px;
+}

@@ -32,8 +32,8 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                     </ul>
@@ -161,128 +161,32 @@
 
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
-            <div class="container px-4 px-lg-5 text-center" data-aos="fade-up">
+            <div  id="contact" class="container px-4 px-lg-5 text-center" data-aos="fade-up">
                 <h2 class="mb-4">Pronto para Transformar seu Negócio?</h2>
                 <p class="text-white-75 mb-4">Junte-se a nós aproveitando dados e IA para desbloquear crescimento sem precedentes.</p>
                 <a class="btn btn-light btn-xl" href="#contact">Comece sua Jornada</a>
             </div>
         </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center" data-aos="fade-up">
-                        <h2 class="mt-0">Vamos nos Conectar!</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5">Pronto para começar seu próximo projeto conosco? Envie-nos uma mensagem e retornaremos assim que possível!</p>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
+
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Company Name</div></div>
+            <div class="container px-4 px-lg-5">
+                <div class="footer-top d-flex justify-content-center align-items-center gap-3 mb-2">
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer-social-link">
+                        <img src="assets/img/instagram-f.png" alt="Instagram" class="footer-social-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="footer-social-link">
+                        <img src="assets/img/linkedin-f.png" alt="LinkedIn" class="footer-social-icon">
+                    </a>
+                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer-social-link">
+                        <img src="assets/img/whatsapp-f.png" alt="WhatsApp" class="footer-social-icon">
+                    </a>
+                </div>
+                <div class="small text-center text-muted">Copyright &copy; 2023 - Company Name</div>
+            </div>
         </footer>
         
-        <!-- Portifolio item 1 Modal popup 
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                 
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    -->
 <!-- Portifolio item 1 Modal popup-->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-xl">
