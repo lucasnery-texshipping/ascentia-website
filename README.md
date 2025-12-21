@@ -1,4 +1,4 @@
-# Ascentia — Portfólio & Reel 🎬
+# Ascentia — Portfólio
 
 **Transformando dados em decisões estratégicas.** Este repositório contém o site-portfólio para divulgar projetos na área de Dados e Tecnologia.
 
@@ -21,25 +21,3 @@ Transformo dados em decisões: dashboards, pipelines e integrações que entrega
 
 💡 Interesse em um projeto similar? Mande uma mensagem ou acesse o portfólio no link do perfil.
 
----
-
-## 🎨 Dicas visuais rápidas
-- Cortes rápidos + close-ups de dashboards. Minimizar texto na tela (3 palavras por cena).
-- Música profissional com ritmo médio.
-- Final com CTA e link/contato.
-
----
-
-## 📌 Como usar
-- Copie o roteiro (seção "Roteiro sugerido") para a edição do vídeo.
-- Copie a legenda pronta para o campo de caption.
-- Precisa da versão em inglês ou curta (15s)? Abra uma issue ou peça aqui que eu adapto.
-
----
-
-## 📬 Contato
-Coloque aqui seu e-mail ou link do LinkedIn / WhatsApp para facilitar conversões.
-
----
-
-_Conteúdo gerado e formatado para facilitar a publicação profissional do seu portfólio nas redes sociais._
