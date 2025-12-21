@@ -11273,3 +11273,38 @@ h1:hover, h2:hover {
   outline-offset: 3px;
   border-radius: 4px;
 }
+
+/* Background matching the About section */
+.bg-ascentia-dark {
+  background-color: #393939 !important;
+  color: #fff !important;
+}
+.bg-ascentia-dark .text-white-75 {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+/* Espaçamento entre Portfólio e Call to Action */
+#portfolio {
+  margin-bottom: 3.5rem; /* espaço padrão */
+}
+@media (min-width: 992px) {
+  #portfolio {
+    margin-bottom: 6rem; /* mais espaço em telas maiores */
+  }
+}
+
+/* Ajuste extra de padding no CTA para reforçar separação */
+.page-section.bg-ascentia-dark {
+  padding-top: 3.5rem;
+}
+
+/* Project modal metadata headings */
+.project-meta h3 {
+  font-size: 1.25rem; /* slightly larger label */
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+.project-meta p {
+  margin-bottom: 0.5rem;
+  color: var(--bs-gray-700);
+}
