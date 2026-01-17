@@ -10872,8 +10872,8 @@ hr.divider-light {
 }
 
 #mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  background-color: #1a1c1e;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11357,4 +11357,33 @@ h1:hover, h2:hover {
     transform: translateY(-3px);
     border-color: #348AF7;
     box-shadow: 0 5px 15px rgba(52, 138, 247, 0.3);
+}
+
+#mainNav {
+    background-color: #1a1c1e !important;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        background-color: transparent !important;
+        box-shadow: none;
+    }
+
+    #mainNav.navbar-shrink {
+        background-color: #1a1c1e !important;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active {
+        color: #348AF7 !important;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        color: #ffffff !important;
+    }
 }
