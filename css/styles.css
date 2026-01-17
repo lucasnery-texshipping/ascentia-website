@@ -11266,7 +11266,7 @@ h1:hover, h2:hover {
   line-height: 0;
 }
 .footer-social-icon {
-  width: 56px;
+  width: 30px;
   height: 56px;
   display: block;
   object-fit: contain;
@@ -11311,4 +11311,50 @@ h1:hover, h2:hover {
 .project-meta p {
   margin-bottom: 0.5rem;
   color: var(--bs-gray-700);
+}
+
+/* --- Footer Moderno Ascentia --- */
+.footer-ascentia {
+    background-color: #1a1c1e;
+    color: #fff;
+    font-family: "Merriweather Sans", sans-serif;
+    position: relative;
+    z-index: 10;
+}
+
+/* Links do Footer */
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-link:hover {
+    color: #348AF7;
+    transform: translateX(5px);
+}
+
+/* Botões Sociais */
+.social-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-btn:hover {
+    background-color: #348AF7;
+    color: #fff;
+    transform: translateY(-3px);
+    border-color: #348AF7;
+    box-shadow: 0 5px 15px rgba(52, 138, 247, 0.3);
 }
