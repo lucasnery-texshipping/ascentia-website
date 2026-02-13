@@ -2,19 +2,21 @@
   "projects": [
     {
       "id": 1,
-      "title": "Dashboard de Pedidos: Integração Automatizada ERP Bling API v3 e Power BI",
+      "title": "IssueMaster - Agente de IA para Qualificação Inteligente de Chamados de TI",
       "thumbnail": "assets/img/portfolio/project1/01.jpg",
-      "technologies": ["Power BI", "Bling ERP", "API Bling v3", "Python", "DAX"],
+      "technologies": ["Python", "FastAPI", "Google Gemini API", "HTML5", "CSS3", "JavaScript", "Bootstrap 5", "SQLite"],
       "images": [
         "assets/img/portfolio/project1/01.jpg",
         "assets/img/portfolio/project1/02.jpg",
-        "assets/img/portfolio/project1/03.jpg"
+        "assets/img/portfolio/project1/03.jpg",
+        "assets/img/portfolio/project1/04.jpg",
+        "assets/img/portfolio/project1/05.jpg"
       ],
       "description": [
-        "Desenvolvimento de uma solução de dados integrada entre o ERP Bling e o Power BI, com foco na extração, transformação e visualização estratégica dos dados de pedidos.",
-        "O projeto iniciou-se com o estudo detalhado da documentação da API v3 do Bling, incluindo os processos de autenticação, segurança e gerenciamento de refresh token para garantir conexões seguras e automatizadas. A coleta dos dados foi realizada diretamente via API, consumindo informações de pedidos em tempo quase real.",
-        "Os dados extraídos passaram por um processo de ETL em Python, contemplando tratamento, padronização, modelagem e preparação para análise. Após a carga no Power BI, foram criadas métricas, indicadores e medidas utilizando DAX, possibilitando análises claras sobre vendas, performance operacional e tomada de decisão.",
-        "O resultado foi a entrega de dashboards interativos, confiáveis e atualizáveis, proporcionando visibilidade completa dos dados do ERP e apoiando decisões estratégicas baseadas em dados."
+        "IssueMaster é um agente de inteligência artificial desenvolvido para maximizar a qualidade das descrições de chamados de TI, atuando como intermediário inteligente entre usuários finais e o sistema de abertura de chamados. O MVP valida a viabilidade de um agente autônomo capaz de avaliar descrições textuais, aplicar critérios de qualidade e orientar usuários antes da abertura oficial, reduzindo retrabalho da equipe de suporte.",
+        "O sistema resolve o problema de chamados vagos (ex: 'Meu computador não funciona') que causam aumento no tempo de atendimento, retrabalho em diagnósticos e frustração. A solução implementada utiliza Google Gemini para análise em tempo real, verificando presença de contexto, sintomas, mensagens de erro, impacto e ações já tentadas.",
+        "O agente analisa o texto do usuário, aplica critérios de avaliação estruturados, atribui pontuação de 0 a 10 e fornece feedback automático com sugestões de complementos ou testes iniciais. Se a descrição for insuficiente (0-4), o sistema bloqueia com alerta; se aceitável (5-7), sugere melhorias; se completa (8-10), aprova para envio.",
+        "A arquitetura utiliza FastAPI para o backend, SQLite para persistência de histórico e análises, e interface web responsiva com Bootstrap. O resultado é um MVP pronto para validação que reduz drasticamente o tempo de qualificação inicial de chamados e melhora significativamente a eficiência do atendimento de suporte."
       ]
     },
     {
@@ -65,21 +67,19 @@
     },
     {
       "id": 5,
-      "title": "IssueMaster - Agente de IA para Qualificação Inteligente de Chamados de TI",
+      "title": "Dashboard de Pedidos: Integração Automatizada ERP Bling API v3 e Power BI",
       "thumbnail": "assets/img/portfolio/project5/01.jpg",
-      "technologies": ["Python", "FastAPI", "Google Gemini API", "HTML5", "CSS3", "JavaScript", "Bootstrap 5", "SQLite"],
+      "technologies": ["Power BI", "Bling ERP", "API Bling v3", "Python", "DAX"],
       "images": [
         "assets/img/portfolio/project5/01.jpg",
         "assets/img/portfolio/project5/02.jpg",
-        "assets/img/portfolio/project5/03.jpg",
-        "assets/img/portfolio/project5/04.jpg",
-        "assets/img/portfolio/project5/05.jpg"
+        "assets/img/portfolio/project5/03.jpg"
       ],
       "description": [
-        "IssueMaster é um agente de inteligência artificial desenvolvido para maximizar a qualidade das descrições de chamados de TI, atuando como intermediário inteligente entre usuários finais e o sistema de abertura de chamados. O MVP valida a viabilidade de um agente autônomo capaz de avaliar descrições textuais, aplicar critérios de qualidade e orientar usuários antes da abertura oficial, reduzindo retrabalho da equipe de suporte.",
-        "O sistema resolve o problema de chamados vagos (ex: 'Meu computador não funciona') que causam aumento no tempo de atendimento, retrabalho em diagnósticos e frustração. A solução implementada utiliza Google Gemini para análise em tempo real, verificando presença de contexto, sintomas, mensagens de erro, impacto e ações já tentadas.",
-        "O agente analisa o texto do usuário, aplica critérios de avaliação estruturados, atribui pontuação de 0 a 10 e fornece feedback automático com sugestões de complementos ou testes iniciais. Se a descrição for insuficiente (0-4), o sistema bloqueia com alerta; se aceitável (5-7), sugere melhorias; se completa (8-10), aprova para envio.",
-        "A arquitetura utiliza FastAPI para o backend, SQLite para persistência de histórico e análises, e interface web responsiva com Bootstrap. O resultado é um MVP pronto para validação que reduz drasticamente o tempo de qualificação inicial de chamados e melhora significativamente a eficiência do atendimento de suporte."
+        "Desenvolvimento de uma solução de dados integrada entre o ERP Bling e o Power BI, com foco na extração, transformação e visualização estratégica dos dados de pedidos.",
+        "O projeto iniciou-se com o estudo detalhado da documentação da API v3 do Bling, incluindo os processos de autenticação, segurança e gerenciamento de refresh token para garantir conexões seguras e automatizadas. A coleta dos dados foi realizada diretamente via API, consumindo informações de pedidos em tempo quase real.",
+        "Os dados extraídos passaram por um processo de ETL em Python, contemplando tratamento, padronização, modelagem e preparação para análise. Após a carga no Power BI, foram criadas métricas, indicadores e medidas utilizando DAX, possibilitando análises claras sobre vendas, performance operacional e tomada de decisão.",
+        "O resultado foi a entrega de dashboards interativos, confiáveis e atualizáveis, proporcionando visibilidade completa dos dados do ERP e apoiando decisões estratégicas baseadas em dados."
       ]
     }
   ]
