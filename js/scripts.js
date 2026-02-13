@@ -14,6 +14,9 @@ async function loadProjects() {
         const response = await fetch('data/projects.json?t=' + Date.now());
         const data = await response.json();
 
+        // debug: log do URL retornado e quantos projetos vieram
+        console.log('[projects.json fetched]', response.url, 'projects:', Array.isArray(data.projects) ? data.projects.length : 'no projects');
+
         // Renderizar grid de portfolios
         renderPortfolioGrid(data.projects);
 
