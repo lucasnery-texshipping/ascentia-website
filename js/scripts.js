@@ -10,7 +10,8 @@
 // Função para renderizar projetos dinamicamente
 async function loadProjects() {
     try {
-        const response = await fetch('data/projects.json');
+        // adicionar timestamp para evitar cache CDN/HTTP e garantir JSON atualizado
+        const response = await fetch('data/projects.json?t=' + Date.now());
         const data = await response.json();
 
         // Renderizar grid de portfolios
